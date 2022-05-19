@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+  <title>Dashboard Kural</title>
+  <!-- loader-->
+
+  <!-- Bootstrap core CSS-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Sidebar CSS-->
+  <link href="assets/css/sidebar-menu.css" rel="stylesheet"/>
+  <!-- Custom Style-->
+  <link href="assets/css/app-style.css" rel="stylesheet"/>
+  
+</head>
+
+<body class="bg-theme bg-theme1">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Incassi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" ">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Scadenzario</a>
+      </div>
+    </div>
+  </nav>
+  <section style="width: fit-content;">
+    <div class="container" style="margin: 25px;">
+      <button type="button" class="btn btn-outline-primary" style="padding: 0.3rem;">cliente</button>
+      <button type="button" class="btn btn-outline-primary" style="padding: 0.3rem;">Dettaglio ordine</button>
+      <button type="button" class="btn btn-outline-primary" style="padding: 0.3rem;">Ordine</button>
+      <button type="button" class="btn btn-outline-primary" style="padding: 0.3rem;">Prodotti per ordine</button>
+      <button type="button" class="btn btn-outline-primary" style="padding: 0.3rem;"> Prodotto</button>
+      <button type="button"class="btn btn-primary" style="padding: 1rem;" >Nuova Prodotto</button>
+    </div>
+  </section>
+<div class="clearfix"></div>
+	
+  <div class="content-wrapper">
+    <div class="container-fluid">
+
+  <!--Start Dashboard Content-->
+
+	<div class="card mt-3">
+    <div class="card-content">
+        <div class="row row-group m-0">
+            <div class="col-12 col-lg-6 col-xl-3 border-light">
+                <div class="card-body">
+                  <h5 class="text-white mb-0">9.526 $ <span class="float-right"><i class="fa fa-shopping-cart"></i></span></h5>
+                    <div class="progress my-3" style="height:3px;">
+                       <div class="progress-bar" style="width:55%"></div>
+                    </div>
+                  <p class="mb-0 text-white small-font"> Incassi <span class="float-right">+4.2% <i class="zmdi zmdi-long-arrow-up"></i></span></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3 border-light">
+                <div class="card-body">
+                  <h5 class="text-white mb-0">8.323 $<span class="float-right"><i class="fa fa-usd"></i></span></h5>
+                    <div class="progress my-3" style="height:3px;">
+                       <div class="progress-bar" style="width:55%"></div>
+                    </div>
+                  <p class="mb-0 text-white small-font">Incassato <span class="float-right">+1.2% <i class="zmdi zmdi-long-arrow-up"></i></span></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-3 border-light">
+                <div class="card-body">
+                  <h5 class="text-white mb-0">6.200 $<span class="float-right"><i class="fa fa-eye"></i></span></h5>
+                    <div class="progress my-3" style="height:3px;">
+                       <div class="progress-bar" style="width:55%"></div>
+                    </div>
+                  <p class="mb-0 text-white small-font">Non scaduto <span class="float-right">+5.2% <i class="zmdi zmdi-long-arrow-up"></i></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>  
+    <section>
+
+	  <div class="card">
+	    <div class="card-header">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 2px; background-color: rgb(0, 54, 202);">
+            Filtra
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </button>
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 2px; background-color: black;">
+            Modifica
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </button>
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 2px; background-color: rgb(0, 122, 112);" >
+            Scarica
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </button>
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 2px; background-color: rgb(0, 110, 255);">
+            Riba.
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Dropdown link</a>
+              <a class="dropdown-item" href="#">Dropdown link</a>
+            </div>
+          </button>
+          <nav class="navbar navbar-light bg-light justify-content-between">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerca</button>
+            </form>
+          </nav>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col-12 col-lg-12">
+	      <div class="table-responsive">
+                <table class="table align-items-center table-flush table-borderless">
+                  <thead>
+                  <tr>
+                    <th>Descrizione</th>
+                    <th>Riferimento</th>
+                    <th>Denominazione Debitore</th>
+                    <th>Totale Incasso</th>
+                    <th>Data Scadenza</th>
+                    <th>Stato Incasso</th>
+                    <th>Ultimo Incasso</th>
+                    <th>Da Incassare</th>
+                    <th>Codice di pagamento</th>
+                  </tr>
+                  </thead>
+                  <tbody><tr>
+                    <td>Fattura</td>
+                    <td><img src="https://via.placeholder.com/110x110" class="product-img" alt="product img"></td>
+                    <td>#9405822</td>
+                    <td>$ 1250.00</td>
+                    <td>03 Aug 2017</td>
+					<td><div class="progress shadow" style="height: 3px;">
+                          <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                        </div></td>
+                        <td>13 Aug 2017</td>
+                        <td>0,00</td>
+                        <td>cfa223d</td>
+                   </tr>
+
+                   <tr>
+                    <td>Fattura</td>
+                    <td><img src="https://via.placeholder.com/110x110" class="product-img" alt="product img"></td>
+                    <td>#9405820</td>
+                    <td>$ 1500.00</td>
+                    <td>03 Aug 2017</td>
+					<td><div class="progress shadow" style="height: 3px;">
+                          <div class="progress-bar" role="progressbar" style="width: 60%"></div>
+                        </div></td>
+                        <td>13 Aug 2017</td>
+                        <td>0,00</td>
+                        <td>cfa223d</td>
+                   </tr>
+
+                   <tr>
+                    <td>Fattura</td>
+                    <td><img src="https://via.placeholder.com/110x110" class="product-img" alt="product img"></td>
+                    <td>#9405830</td>
+                    <td>$ 1400.00</td>
+                    <td>03 Aug 2017</td>
+					<td><div class="progress shadow" style="height: 3px;">
+                          <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                        </div></td>
+                        <td>13 Aug 2017</td>
+                        <td>0,00</td>
+                        <td>cfa223d</td>
+                   </tr>
+
+                   <tr>
+                    <td>Fattura</td>
+                    <td><img src="https://via.placeholder.com/110x110" class="product-img" alt="product img"></td>
+                    <td>#9405825</td>
+                    <td>$ 1200.00</td>
+                    <td>03 Aug 2017</td>
+					<td><div class="progress shadow" style="height: 3px;">
+                          <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                        </div></td>
+                        <td>13 Aug 2017</td>
+                        <td>0,00</td>
+                        <td>cfa223d</td>
+                   </tr>
+
+                   <tr>
+                    <td>Fattura</td>
+                    <td><img src="https://via.placeholder.com/110x110" class="product-img" alt="product img"></td>
+                    <td>#9405840</td>
+                    <td>$ 1800.00</td>
+                    <td>03 Aug 2017</td>
+					<td><div class="progress shadow" style="height: 3px;">
+                          <div class="progress-bar" role="progressbar" style="width: 40%"></div>
+                        </div></td>
+                        <td>13 Aug 2017</td>
+                        <td>0,00</td>
+                        <td>cfa223d</td>
+                   </tr>
+				   
+				   <tr>
+                    <td>Fattura</td>
+                    <td><img src="https://via.placeholder.com/110x110" class="product-img" alt="product img"></td>
+                    <td>#9405825</td>
+                    <td>$ 1200.00</td>
+                    <td>03 Aug 2017</td>
+					<td><div class="progress shadow" style="height: 3px;">
+                          <div class="progress-bar" role="progressbar" style="width: 100%"></div>
+                        </div></td>
+                        <td>13 Aug 2017</td>
+                        <td>0,00</td>
+                        <td>cfa223d</td>
+                   </tr>
+                 </tbody></table>
+               </div>
+	   </div>
+	 </div>
+	</div><!--End Row-->
+    </div>
+    </div><!--End content-wrapper-->
+	<!--Start footer-->
+	<footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          Copyright © 2018 Dashboard Kural
+        </div>
+      </div>
+    </footer>
+	<!--End footer-->
+   
+  </div><!--End wrapper-->
+</body>
+</html>
